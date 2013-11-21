@@ -10,7 +10,7 @@ if [ ! -d "bundle" ]; then
     mkdir bundle
 fi
 
-wget http://www.vim.org/scripts/download_script.php?src_id=14366 bundle/pep8.vim
+wget http://www.vim.org/scripts/download_script.php?src_id=14366 -o bundle/pep8.vim
 git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
 cat > ~/.vimrc << EOF
