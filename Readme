@@ -1,6 +1,4 @@
 ### install
-git clone https://github.com/halfss/vim_setup.git
-cd vim_setup
-sh setup.sh
+curl https://raw.githubusercontent.com/halfss/vim_setup/master/setup.sh | sh
 
 
